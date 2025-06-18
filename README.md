@@ -1,7 +1,8 @@
 ## Jetson orin nano super 學習紀錄
 ##
 ## 書籍
-* ![ros2](https://github.com/cavedunissin/edgeai_jetson_orin/blob/main/pics/ros2_cover.jpg)
+<img src="https://github.com/cavedunissin/edgeai_jetson_orin/blob/main/pics/ros2_cover.jpg" width="200" alt="book cover">
+
 ## 參考
 ```
 sudo python benchnark.py --all --csv_fite_path ortn_nano_ptm.c --nodel_dir /home/crossin/Desktop/res/benchmarking/model_engines/
