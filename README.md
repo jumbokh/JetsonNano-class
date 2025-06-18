@@ -17,7 +17,7 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 * [Jetson Nano - 遠端連線](https://hackmd.io/@Yungger/Jetson-Nano-Remote)
 
 ### vnc server
-* [vin setup](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04)
+* [How to Install and Configure VNC on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04)
 ### vino setting:
 ```
  export DISPLAY=:0
