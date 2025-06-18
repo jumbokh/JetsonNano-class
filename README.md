@@ -15,7 +15,8 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 ##
 ###遠端連線
 * [Jetson Nano - 遠端連線](https://hackmd.io/@Yungger/Jetson-Nano-Remote)
-vino setting:
+
+### vino setting:
 ```
  export DISPLAY=:0
  gsettings set org.gnome.Vino prompt-enabled false
