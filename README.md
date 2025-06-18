@@ -13,6 +13,15 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 ##
 * [GITHUB](https://github.com/cavedunissin/edgeai_jetson_orin)
 ##
+vino setting:
+```
+ export DISPLAY=:0
+ gsettings set org.gnome.Vino prompt-enabled false
+ gsettings set org.gnome.Vino require-encryption false
+ gsettings set org.gnome.Vino authentication-methods "['vnc']"
+ gsettings set org.gnome.Vino lock-screen-on-disconnect false
+ gsettings set org.gnome.Vino vnc-password $(echo -n "x123456789x"|base64)
+```
 ## 參考
 ```
 sudo python benchnark.py --all --csv_fite_path ortn_nano_ptm.c --nodel_dir /home/crossin/Desktop/res/benchmarking/model_engines/
