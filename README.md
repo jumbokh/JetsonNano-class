@@ -9,6 +9,7 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 * 郭俊廷，CAVEDU教育團隊資深講師、NVIDIA Jetson AI Specialist
 * 楊子賢，CAVEDU教育團隊資深講師、NVIDIA Jetson AI Specialist
 <img src="https://github.com/cavedunissin/edgeai_jetson_orin/blob/main/pics/ros2_cover.jpg" width="200" alt="book cover">
+
 ##
 * [GITHUB](https://github.com/cavedunissin/edgeai_jetson_orin)
 ##
