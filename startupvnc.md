@@ -4,9 +4,7 @@
 
 xrdb $HOME/.Xresources
 xsetroot -solid black
-/opt/azureus/azureus &
-k3b &
-icewm-session &
+/etc/X11/Xsession
 ```
 
 ## /etc/init.d/vncserver
