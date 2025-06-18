@@ -1,7 +1,7 @@
 ## Jetson orin nano super 學習紀錄
 ##
 ## 書籍
-# [邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人]
+# 邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人
 CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 
 ## 作者
@@ -16,6 +16,8 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 ###遠端連線
 * [Jetson Nano - 遠端連線](https://hackmd.io/@Yungger/Jetson-Nano-Remote)
 
+### vnc server
+* [vin setup](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04)
 ### vino setting:
 ```
  export DISPLAY=:0
