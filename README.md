@@ -1,5 +1,6 @@
 ## Jetson orin nano super 學習紀錄
 ##
+* [課程導入](https://github.com/jumbokh/JetsonNano-class/blob/main/class.md)
 ## 第一次開機
 * Language: English
 * Keyboard: en_US
