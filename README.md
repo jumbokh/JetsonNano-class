@@ -5,8 +5,11 @@
 * Keyboard: en_US
 * Time Zone: 北京上海
 * 是否安裝瀏覽器: 否
-  
+
+## [基本工具安裝:](https://github.com/jumbokh/JetsonNano-class/blob/main/sometools.md)
+
 ## 書籍
+
 # 邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人
 CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 
