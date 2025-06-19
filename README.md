@@ -1,5 +1,11 @@
 ## Jetson orin nano super 學習紀錄
 ##
+## 第一次開機
+* Language: English
+* Keyboard: en_US
+* Time Zone: 北京上海
+* 是否安裝瀏覽器: 否
+  
 ## 書籍
 # 邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人
 CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
@@ -13,7 +19,7 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 ##
 * [GITHUB](https://github.com/cavedunissin/edgeai_jetson_orin)
 ##
-###遠端連線
+### 遠端連線
 * [Jetson Nano - 遠端連線](https://hackmd.io/@Yungger/Jetson-Nano-Remote)
 * [解決nvidia Jetson無法遠端VNC問題](https://youyouyou.pixnet.net/blog/post/119567170)
 ### vnc client
