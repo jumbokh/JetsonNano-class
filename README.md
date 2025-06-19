@@ -7,6 +7,7 @@
 * 是否安裝瀏覽器: 否
 
 ## [基本工具安裝:](https://github.com/jumbokh/JetsonNano-class/blob/main/sometools.md)
+## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 
 ## 書籍
 
