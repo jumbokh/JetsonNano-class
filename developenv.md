@@ -1,11 +1,9 @@
 ### 安裝開發環境
 * python --version
 * python3 --version
-* sudo apt purge timidity lxmusic gnome-disk-utility deluge-gtk evince wicd wicd-gtk clipit usermode gucharmap gnome-system-tools pavucontrol
-* sudo apt-get install python-rpi.gpio python3-rpi.gpio
 * sudo apt install python3-opencv
 * mkdir src
-* ### 3. 設定 python3 為 default python [參考](https://linuxconfig.org/change-default-python-version-on-raspbian-gnu-linuxl)
+### 3. 設定 python3 為 default python [參考](https://linuxconfig.org/change-default-python-version-on-raspbian-gnu-linuxl)
 * Step 1. Add both (all) versions of python installed to the list of "alternatives" for the python binary.
 <pre>
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
