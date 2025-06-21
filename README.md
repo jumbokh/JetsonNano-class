@@ -34,7 +34,13 @@ ai-class01@jetson:~$
 ```
 
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
-
+## 「測試 CUDA 支援」的實驗範例
+* []()
+### Download pytorch 12.6
+```
+pip3 install --upgrade torch torchvision --extra-index-url https://download.pytorch.org/whl/cu126
+python3 -c "import torch, platform, os; print(torch.__version__, torch.version.cuda)"
+```
 ## 書籍
 
 # 邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人
