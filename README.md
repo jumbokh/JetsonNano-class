@@ -21,6 +21,18 @@ export CUDA_ROOT=/usr/local/cuda
 source ~/.bashrc
 nvcc --version
 ```
+### 結果顯示
+
+```
+ai-class01@jetson:~$ nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2024 NVIDIA Corporation
+Built on Wed_Aug_14_10:14:07_PDT_2024
+Cuda compilation tools, release 12.6, V12.6.68
+Build cuda_12.6.r12.6/compiler.34714021_0
+ai-class01@jetson:~$
+```
+
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 
 ## 書籍
