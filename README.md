@@ -9,6 +9,18 @@
 * 是否安裝瀏覽器: 否
 
 ## [基本工具安裝:](https://github.com/jumbokh/JetsonNano-class/blob/main/sometools.md)
+### nano ~/.bashrc  
+#### 添加這幾行設定
+```
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export CUDA_ROOT=/usr/local/cuda
+```
+## 
+```
+source ~/.bashrc
+nvcc --version
+```
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 
 ## 書籍
