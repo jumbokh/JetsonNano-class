@@ -35,7 +35,7 @@ ai-class01@jetson:~$
 
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 ## 「測試 CUDA 支援」的實驗範例
-* []()
+* [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
 ### Download pytorch 12.6
 ```
 pip3 install --upgrade torch torchvision --extra-index-url https://download.pytorch.org/whl/cu126
