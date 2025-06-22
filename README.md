@@ -62,6 +62,10 @@ python3 -c "import torch, platform, os; print(torch.__version__, torch.version.c
 ```
 ## 更新安裝 jupyter-lab
 * [jupyter-lab](https://github.com/jumbokh/JetsonNano-class/blob/main/jupyterNotebook.md)
+### 請登入 jupyterlab 試著運行 iris 範例
+##
+## Jetson inference
+* [inference](https://github.com/dusty-nv/jetson-inference)
 ## 書籍
 
 # 邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人
