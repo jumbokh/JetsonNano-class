@@ -60,6 +60,8 @@ pip3 install --upgrade torch torchvision --extra-index-url https://download.pyto
 pip install torch torchvision -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 python3 -c "import torch, platform, os; print(torch.__version__, torch.version.cuda)"
 ```
+## 更新安裝 jupyter-lab
+* [jupyter-lab](https://github.com/jumbokh/JetsonNano-class/blob/main/jupyterNotebook.md)
 ## 書籍
 
 # 邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人
