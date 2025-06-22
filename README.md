@@ -66,6 +66,7 @@ python3 -c "import torch, platform, os; print(torch.__version__, torch.version.c
 ##
 ## Jetson inference
 * [inference](https://github.com/dusty-nv/jetson-inference)
+* [build project](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)
 ## 書籍
 
 # 邊緣AI - 使用 NVIDIA Jetson Orin Nano 開發具備深度學習、電腦視覺與生成式AI 功能的 ROS2 機器人
