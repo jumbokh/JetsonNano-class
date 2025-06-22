@@ -56,6 +56,8 @@ conda activate virtual
 pip install xgboost -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 # pytorch
 pip3 install --upgrade torch torchvision --extra-index-url https://download.pytorch.org/whl/cu126
+# or
+pip install torch torchvision -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 python3 -c "import torch, platform, os; print(torch.__version__, torch.version.cuda)"
 ```
 ## 書籍
