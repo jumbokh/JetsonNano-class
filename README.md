@@ -12,7 +12,7 @@
 ### nano ~/.bashrc  
 #### 添加這幾行設定
 ```
-export PATH=/usr/local/cuda/bin:$PATH
+export PATH=/usr/local/cuda/bin:~/.local/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export CUDA_ROOT=/usr/local/cuda
 ```
