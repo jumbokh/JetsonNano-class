@@ -32,7 +32,21 @@ Cuda compilation tools, release 12.6, V12.6.68
 Build cuda_12.6.r12.6/compiler.34714021_0
 ai-class01@jetson:~$
 ```
+## conda setup
+* [How to install conda on your Jetson Orin Nano Super](https://www.cytron.io/tutorial/p-conda-on-jetson-orin-nano-super?srsltid=AfmBOoo0T43LjVQ8SmQwIy8Kk1bpU5Kl0EblooNOfV9VXwIQrRqC5tGC)
+```
+mkdir -p ~/miniconda3
 
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh \
+-O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+cd miniconda3
+./bin/conda init
+conda create -n virtual python=3.10
+conda activate virtual
+```
+##
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 ## 「測試 CUDA 支援」的實驗範例
 * [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
