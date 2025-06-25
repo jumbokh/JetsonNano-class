@@ -47,6 +47,11 @@ conda create -n virtual python=3.10
 conda activate virtual
 ```
 ##
+### 安裝 opencv庫
+```
+pip install --upgrade opencv-contrib-python -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+```
+
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 ## 「測試 CUDA 支援」的實驗範例
 * [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
