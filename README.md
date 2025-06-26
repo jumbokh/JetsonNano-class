@@ -92,6 +92,9 @@ python3 -c "import torch, platform, os; print(torch.__version__, torch.version.c
 * [inference](https://github.com/dusty-nv/jetson-inference)
 * [build project](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)
 ##
+### yolov5
+* [yolov5](https://github.com/jumbokh/JetsonNano-class/blob/main/yolov5.md)
+##
 ### 安裝 docker
 * [hacknote](https://hackmd.io/@YungHuiHsu/ryxhhD3Aj)
 ## 書籍
