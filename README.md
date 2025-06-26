@@ -131,6 +131,14 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 * [GITHUB](https://github.com/cavedunissin/edgeai_jetson_orin)
 ##
 ### 遠端連線
+#### nomachine
+* [NoMachine，適用於Ubuntu的遠程桌面工具](https://zh-tw.ubunlog.com/nomachine%E9%81%A0%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7/)
+##
+```	
+sudo apt -y install wget
+wget https://download.nomachine.com/download/6.9/Linux/nomachine_6.9.2_1_amd64.deb
+sudo dpkg -i nomachine_6.9.2_1_amd64.deb
+```
 * [IT專題-流暢的linux桌面連線體驗(noVNC)](https://ithelp.ithome.com.tw/articles/10190191)
 * [Jetson Nano - 遠端連線](https://hackmd.io/@Yungger/Jetson-Nano-Remote)
 * [解決nvidia Jetson無法遠端VNC問題](https://youyouyou.pixnet.net/blog/post/119567170)
