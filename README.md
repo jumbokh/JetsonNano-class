@@ -38,6 +38,16 @@ Cuda compilation tools, release 12.6, V12.6.68
 Build cuda_12.6.r12.6/compiler.34714021_0
 ai-class01@jetson:~$
 ```
+### 設定 python3 為 default python [參考](https://linuxconfig.org/change-default-python-version-on-raspbian-gnu-linuxl)
+* Step 1. Add both (all) versions of python installed to the list of "alternatives" for the python binary.
+<pre>
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+</pre>
+* Step 2. Select desired version:
+<pre>
+sudo update-alternatives --config python
+</pre>
 ## conda setup
 * [How to install conda on your Jetson Orin Nano Super](https://www.cytron.io/tutorial/p-conda-on-jetson-orin-nano-super?srsltid=AfmBOoo0T43LjVQ8SmQwIy8Kk1bpU5Kl0EblooNOfV9VXwIQrRqC5tGC)
 ```
