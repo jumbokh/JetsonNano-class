@@ -131,6 +131,7 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 * [GITHUB](https://github.com/cavedunissin/edgeai_jetson_orin)
 ##
 ### 遠端連線
+* [IT專題-流暢的linux桌面連線體驗(noVNC)](https://ithelp.ithome.com.tw/articles/10190191)
 * [Jetson Nano - 遠端連線](https://hackmd.io/@Yungger/Jetson-Nano-Remote)
 * [解決nvidia Jetson無法遠端VNC問題](https://youyouyou.pixnet.net/blog/post/119567170)
 ### vnc client
