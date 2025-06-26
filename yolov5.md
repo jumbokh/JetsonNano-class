@@ -32,8 +32,9 @@ sudo apt install -y git python3-pip python3-venv libopencv-dev
 ### 2. 建立虛擬環境（建議）
 
 ```bash
-python3 -m venv yolov5-env
-source yolov5-env/bin/activate
+conda create -n yolov5 python=3.10
+conda activate yolov5
+pip install --upgrade pip
 ```
 
 ### 3. 下載 YOLOv5 原始碼
