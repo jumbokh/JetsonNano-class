@@ -9,6 +9,19 @@
 * 是否安裝瀏覽器: 否
 
 ## [基本工具安裝:](https://github.com/jumbokh/JetsonNano-class/blob/main/sometools.md)
+## 軟體工具安裝
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install python3-pip
+sudo pip3 install -U pip
+sudo pip3 install -U jetson-stats
+sudo jtop
+```
+## cuda/cuDNN 安裝
+```
+sudo apt install nvidia-jetpack
+```
 ### nano ~/.bashrc  
 #### 添加這幾行設定
 ```
