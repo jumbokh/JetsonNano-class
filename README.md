@@ -96,6 +96,9 @@ python3 -c "import torch, platform, os; print(torch.__version__, torch.version.c
 * [yolov5](https://github.com/jumbokh/JetsonNano-class/blob/main/yolov5.md)
 ##
 ### 安裝 docker
+* [Installing the NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+* [NVIDIA Container Toolkit 安裝筆記](https://hackmd.io/wADvyemZRDOeEduJXA9X7g)
+* [NVIDIA Jetson 平台佈署相關筆記](https://hackmd.io/@YungHuiHsu/ryxhhD3Aj)
 * [hacknote](https://hackmd.io/@YungHuiHsu/ryxhhD3Aj)
 ## 書籍
 
