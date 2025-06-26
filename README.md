@@ -59,8 +59,8 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm ~/miniconda3/miniconda.sh
 cd miniconda3
 ./bin/conda init
-conda create -n virtual python=3.10
-conda activate virtual
+conda create -n torch python=3.10
+conda activate torch
 ```
 ##
 ### 安裝 opencv庫
