@@ -9,6 +9,19 @@
 * 是否安裝瀏覽器: 否
 
 ## [基本工具安裝:](https://github.com/jumbokh/JetsonNano-class/blob/main/sometools.md)
+## 軟體工具安裝
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install python3-pip
+sudo pip3 install -U pip
+sudo pip3 install -U jetson-stats
+sudo jtop
+```
+## cuda/cuDNN 安裝
+```
+sudo apt install nvidia-jetpack
+```
 ### nano ~/.bashrc  
 #### 添加這幾行設定
 ```
@@ -67,12 +80,15 @@ conda activate torch
 ```
 pip install --upgrade opencv-contrib-python -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ```
+### 完整安裝 opencv4.8 支援 cuda
+* [opencv-gpu](https://github.com/jumbokh/JetsonNano-class/blob/main/opencv-cuda.md)
 ### JetRacer ROS AI kit (微雪教程)
 * [JetRacer ROS AI Kit](https://www.waveshare.net/wiki/JetRacer_ROS_AI_Kit)
 * [nomachine下载安装使用教程](https://blog.csdn.net/weixin_44029896/article/details/128555481)
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 ## 「測試 CUDA 支援」的實驗範例
-* [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
+* [3 Lab for CUDA](https://github.com/jumbokh/JetsonNano-class/blob/main/Lab-cuda.md)
+    * [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
 ### Download pytorch 12.6
 ```
 python -m pip install --upgrade pip -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
@@ -115,6 +131,15 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 * [GITHUB](https://github.com/cavedunissin/edgeai_jetson_orin)
 ##
 ### 遠端連線
+#### nomachine
+* [NoMachine，適用於Ubuntu的遠程桌面工具](https://zh-tw.ubunlog.com/nomachine%E9%81%A0%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7/)
+##
+```	
+sudo apt -y install wget
+wget https://download.nomachine.com/download/6.9/Linux/nomachine_6.9.2_1_amd64.deb
+sudo dpkg -i nomachine_6.9.2_1_amd64.deb
+```
+* [IT專題-流暢的linux桌面連線體驗(noVNC)](https://ithelp.ithome.com.tw/articles/10190191)
 * [Jetson Nano - 遠端連線](https://hackmd.io/@Yungger/Jetson-Nano-Remote)
 * [解決nvidia Jetson無法遠端VNC問題](https://youyouyou.pixnet.net/blog/post/119567170)
 ### vnc client

@@ -1,9 +1,13 @@
-https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit
+* [Getting Started Guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)
+```
 nvcc -V
-vim ~/.bashrc              #如果出現 bash: nvcc: command not found ，請添加環境變數：
+nano ~/.bashrc
+```
+#如果出現 bash: nvcc: command not found ，請添加環境變數：
 #在結尾添加：
 ```
-export LD_LIBRARY_PATH=/usr/local/cuda/lib export PATH=$PATH:/usr/local/cuda/bin
+export LD_LIBRARY_PATH=/usr/local/cuda/lib
+export PATH=$PATH:/usr/local/cuda/bin
 export PATH=$PATH:/usr/local/cuda/bin
 ```
 ==
