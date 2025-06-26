@@ -67,12 +67,15 @@ conda activate torch
 ```
 pip install --upgrade opencv-contrib-python -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ```
+### 完整安裝 opencv4.8 支援 cuda
+* [opencv-gpu](https://github.com/jumbokh/JetsonNano-class/blob/main/opencv-cuda.md)
 ### JetRacer ROS AI kit (微雪教程)
 * [JetRacer ROS AI Kit](https://www.waveshare.net/wiki/JetRacer_ROS_AI_Kit)
 * [nomachine下载安装使用教程](https://blog.csdn.net/weixin_44029896/article/details/128555481)
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
 ## 「測試 CUDA 支援」的實驗範例
-* [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
+* [3 Lab for CUDA](https://github.com/jumbokh/JetsonNano-class/blob/main/Lab-cuda.md)
+    * [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
 ### Download pytorch 12.6
 ```
 python -m pip install --upgrade pip -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
