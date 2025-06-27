@@ -76,6 +76,13 @@ conda create -n torch python=3.10
 conda activate torch
 ```
 ##
+### Add kernel to jupyter notebook
+```
+conda create -n py36-test python=3.6
+source activate py36-test
+python -m ipykernel install --name py36-test
+source deactivate
+```
 ### 安裝 opencv庫
 ```
 pip install --upgrade opencv-contrib-python -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
