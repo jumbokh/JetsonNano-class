@@ -18,6 +18,13 @@ sudo pip3 install -U pip
 sudo pip3 install -U jetson-stats
 sudo jtop
 ```
+## Add user
+```
+sudo useradd class01 -m -d /home/class01
+sudo passwd class01
+ New password:  123456
+ retype: 123456
+```
 ## cuda/cuDNN 安裝
 ```
 sudo apt install nvidia-jetpack
