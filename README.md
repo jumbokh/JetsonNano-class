@@ -86,9 +86,8 @@ conda activate torch
 ##
 ### Add kernel to jupyter notebook
 ```
-conda create -n py36-test python=3.6
-source activate py36-test
-python -m ipykernel install --name py36-test
+source activate torch
+ipython kernel install --user --name=ml
 source deactivate
 ```
 ### 安裝 opencv庫
