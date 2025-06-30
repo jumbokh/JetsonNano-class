@@ -8,6 +8,14 @@
 * Time Zone: 北京上海
 * 是否安裝瀏覽器: 否
 
+## serial port terminal connect to wifi
+```
+sudo apt update
+sudo apt install network-manager
+sudo service NetworkManager start
+sudo nmcli device wifi connect 'SSID' password 'PASSWORD'
+```
+
 ## [基本工具安裝:](https://github.com/jumbokh/JetsonNano-class/blob/main/sometools.md)
 ## 軟體工具安裝
 ```
