@@ -31,8 +31,8 @@ sudo apt install -y python3-venv python3-pip
 ### 🌐 第二步：下載 OpenCV 原始碼（4.8.0）
 ```
 mkdir -p ~/opencv_build && cd ~/opencv_build
-git clone https://github.com/opencv/opencv.git
-git clone https://github.com/opencv/opencv_contrib.git
+git clone https://gitee.com/opencv/opencv.git
+git clone https://gitee.com/opencv/opencv_contrib.git
 
 cd opencv
 git checkout 4.8.0
