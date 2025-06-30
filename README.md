@@ -130,6 +130,13 @@ python3 -c "import torch, platform, os; print(torch.__version__, torch.version.c
 * [inference](https://github.com/dusty-nv/jetson-inference)
 * [build project](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)
 ##
+### Download and install vscode
+```
+$ git clone https://github.com/JetsonHacksNano/installVSCode.git
+$ cd installVSCode/
+$ ./installVSCode.sh
+```
+
 ### yolov5
 * [yolov5](https://github.com/jumbokh/JetsonNano-class/blob/main/yolov5.md)
 ##
