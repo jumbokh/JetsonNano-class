@@ -125,6 +125,7 @@ python3 -c "import torch, platform, os; print(torch.__version__, torch.version.c
 ## 更新安裝 jupyter-lab
 * [jupyter-lab](https://github.com/jumbokh/JetsonNano-class/blob/main/jupyterNotebook.md)
 ### 請登入 jupyterlab 試著運行 iris 範例
+* [IRIS 範例](https://github.com/jumbokh/JetsonNano-class/blob/main/source/Iris_Finalex.ipynb)
 ##
 ## Jetson inference
 * [inference](https://github.com/dusty-nv/jetson-inference)
