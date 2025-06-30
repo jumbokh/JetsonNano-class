@@ -48,6 +48,7 @@ cmake ../opencv \
   -D CMAKE_BUILD_TYPE=RELEASE \
   -D CMAKE_INSTALL_PREFIX=/usr/local \
   -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
+  -D ANT_EXECUTABLE:FILEPATH=/usr/share/ant/bin/ant \
   -D ENABLE_NEON=ON \
   -D WITH_CUDA=ON \
   -D WITH_CUDNN=ON \
@@ -63,6 +64,7 @@ cmake ../opencv \
   -D BUILD_EXAMPLES=OFF \
   -D BUILD_opencv_world=OFF \
   -D PYTHON_EXECUTABLE=$(which python3) \
+  -D BUILD_SHARED_LIBS=OFF \
   -D INSTALL_PYTHON_EXAMPLES=ON
 ```
 ### 📌 備註：
