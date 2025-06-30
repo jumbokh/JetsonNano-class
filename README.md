@@ -163,6 +163,8 @@ CAVEDU 出版之 Jetson Orin 系列單板電腦書籍範例與相關資源
 ### 遠端連線
 #### nomachine
 * [NoMachine，適用於Ubuntu的遠程桌面工具](https://zh-tw.ubunlog.com/nomachine%E9%81%A0%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%B7%A5%E5%85%B7/)
+* [xrdp + xfce4 搭建 Linux 远程桌面](https://www.amjun.com/1883.html)
+* [xrdp修改远程桌面环境为xfce4](https://blog.csdn.net/sxf1061700625/article/details/147096702)
 ##
 ```	
 sudo apt -y install wget
