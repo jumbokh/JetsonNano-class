@@ -92,6 +92,19 @@ conda create -n torch python=3.10
 conda activate torch
 ```
 ##
+### 解決 git clone 速度過慢問題
+#### 1. 换用gitee
+```
+# from
+git clone https://github.com/opencv/opencv.git
+# to
+git clone https://gitee.com/opencv/opencv.git
+```
+#### 2. 使用国内代理，在要clone的url前加上：https://ghproxy.com/
+```
+git clone https://ghproxy.com/https://gitee.com/opencv/opencv.git
+```
+
 ### Add kernel to jupyter notebook
 ```
 source activate torch
