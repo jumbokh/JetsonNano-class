@@ -121,6 +121,7 @@ pip install --upgrade opencv-contrib-python -i http://mirrors.aliyun.com/pypi/si
 * [JetRacer ROS AI Kit](https://www.waveshare.net/wiki/JetRacer_ROS_AI_Kit)
 * [nomachine下载安装使用教程](https://blog.csdn.net/weixin_44029896/article/details/128555481)
 ## [開發環境](https://github.com/jumbokh/JetsonNano-class/blob/main/developenv.md)
+* [NVIDIA Jetson Orin Nano 手把手完整安裝教學，Pytorch、Tensorflow、Opencv(cuda版本)](https://medium.com/@EricChou711/nvidia-jetson-orin-nano-%E6%89%8B%E6%8A%8A%E6%89%8B%E5%AE%8C%E6%95%B4%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8-pytorch-tensorflow-opencv-cuda%E7%89%88%E6%9C%AC-683271bfaa42)
 ## 「測試 CUDA 支援」的實驗範例
 * [3 Lab for CUDA](https://github.com/jumbokh/JetsonNano-class/blob/main/Lab-cuda.md)
     * [測試 CUDA 支援](https://github.com/jumbokh/JetsonNano-class/blob/main/docs/%E6%B8%AC%E8%A9%A6%20CUDA%20%E6%94%AF%E6%8F%B4.docx)
