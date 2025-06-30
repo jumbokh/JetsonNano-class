@@ -11,7 +11,7 @@ sudo apt upgrade
 
 #### 2. Install Xfce4:
 ```
-sudo apt install xfce4
+sudo apt install -y xfce4 xfce4-goodies
 ```
 
 #### 3. Configure the Session:
