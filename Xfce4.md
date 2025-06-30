@@ -1,7 +1,9 @@
-### To install the Xfce4 desktop environment on a Jetson Nano, 
-### you can use apt to install the necessary packages 
-### and then configure the session to use Xfce4. Here's how: 
-#### 1. Update Package Lists and Upgrade Packages:
+<pre>
+To install the Xfce4 desktop environment on a Jetson Nano, 
+you can use apt to install the necessary packages 
+and then configure the session to use Xfce4. Here's how: 
+</pre>
+####  1. Update Package Lists and Upgrade Packages:
 ```
 sudo apt update
 sudo apt upgrade
